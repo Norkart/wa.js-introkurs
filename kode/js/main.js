@@ -6,14 +6,14 @@ var Norkart = {}; //definerer et "namespace" som vi kan holde oss innenfor
 $(document).ready(function() {
     console.log("ready!");
 
-//starter kartmotoren (Leaflet med Norkart sine tilpasninger) 
-//lagrer referanse til objektet i Norkart.map
-    Norkart.map = new WebatlasMap('kart', {
-        customer: "WA_studentkurs" //ved kommersiell bruk send epost til alexander.nossum@norkart.no
-    });
+// //starter kartmotoren (Leaflet med Norkart sine tilpasninger) 
+// //lagrer referanse til objektet i Norkart.map
+//     Norkart.map = new WebatlasMap('kart', {
+//         customer: "WA_studentkurs" //ved kommersiell bruk send epost til alexander.nossum@norkart.no
+//     });
 
-//endrer senterpunkt til koordinatene og setter zoomnivå til 5
-    Norkart.map.setView(new L.LatLng(64.0, 11.0), 5);
+// //endrer senterpunkt til koordinatene og setter zoomnivå til 5
+//     Norkart.map.setView(new L.LatLng(64.0, 11.0), 5);
 
 /*** Legge til markør  */
 // //Lager en markør på et koordinatpar og legger til kartet.
